@@ -1,6 +1,6 @@
 context:
   name: fastfetch
-  version: "2.40.1"
+  version: "2.40.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/${{ name }}-cli/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: de1a41ee23273832d4283fca2002a9809e3f38259a0f4a497e14d5ea04b9be90
+  sha256: b4bc551ef2ec48cb0a14d21e266d16ea0469d55524b221464df1a7619bb339cc
   patches:
     - if: linux
       then:
