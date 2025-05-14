@@ -28,6 +28,7 @@ requirements:
       - imagemagick
       - sqlite
       - zlib
+      - rhash
       - if: linux
         then:
           - dbus
@@ -43,6 +44,7 @@ requirements:
     - ${{ pin_compatible('imagemagick') }}
     - ${{ pin_compatible('sqlite') }}
     - ${{ pin_compatible('zlib') }}
+    - ${{ pin_compatible('rhash') }}
     - if: linux
       then:
         - ${{ pin_compatible('dbus') }}
@@ -71,6 +73,7 @@ requirements:
     - libvulkan-headers
     - sqlite
     - zlib
+    - rhash
     - if: linux
       then:
         - dbus
