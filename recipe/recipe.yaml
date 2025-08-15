@@ -9,10 +9,6 @@ package:
 source:
   url: https://github.com/${{ name }}-cli/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
   sha256: 947e070edcf906bfe88ccc219f65226c75c509612b127aba28e3b62ab30f50da
-  patches:
-    - if: linux
-      then:
-        - fix-localip-linux.patch
 
 build:
   number: 0
