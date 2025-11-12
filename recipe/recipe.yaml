@@ -15,7 +15,7 @@ source:
         - fix-localip-linux.patch
 
 build:
-  number: 0
+  number: 1
   skip: win
 
 requirements:
@@ -83,7 +83,6 @@ requirements:
         - wayland
         - xorg-libx11
         - xorg-libxrandr
-        - ${{ cdt('pciutils-devel') }}
   run: []
 
 tests:
