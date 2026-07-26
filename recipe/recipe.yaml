@@ -8,10 +8,6 @@ package:
 source:
   url: https://github.com/fastfetch-cli/fastfetch/archive/${{ version }}.tar.gz
   sha256: 547883c2f0dbc85a4545d4533f5b812fbc4c8ffe1271056de18b51994acbf474
-  patches:
-    - if: linux
-      then:
-        - fix-localip-linux.patch
 
 build:
   number: 0
