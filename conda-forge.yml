@@ -12,3 +12,4 @@ build_platform:
 test: native_and_emulated
 bot:
   automerge: true
+conda_install_tool: pixi
