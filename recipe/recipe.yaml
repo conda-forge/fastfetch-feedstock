@@ -83,6 +83,7 @@ requirements:
 tests:
   - script:
       - fastfetch --version
+      - fastfetch --list-features
       - fastfetch
 
 about:
