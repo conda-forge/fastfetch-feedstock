@@ -10,7 +10,7 @@ source:
   sha256: e71d93de41e8e4b2554c36d2ae51758112a21ecf3a8c98605a2c689251e62987
 
 build:
-  number: 0
+  number: 1
   skip: win
 
 requirements:
@@ -54,7 +54,7 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ compiler('cxx') }}
     - ${{ stdlib('c') }}
-    - pkg-config
+    - pkgconf
     - cmake
     - ninja
     # used in cmake
